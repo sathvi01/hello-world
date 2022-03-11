@@ -1,3 +1,3 @@
-<h1> Hello, Welcome to Simple DevOps Project !!   </h1>
-<h2> Deploying on a kubernetes using ansible for wetraining Technologies </h2>
-<h2> Glad to see you here for first job on deploy to docker2</h2>
+<h1> Hello, Welcome to DevOps Learning   </h1>
+<h2> I am Glad to see you all here in Besent Technologies </h2>
+<h2> Tomcat installation and deployment session</h2>

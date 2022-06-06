@@ -219,8 +219,8 @@
   </prerequisites>
  <distributionManagement>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://54.244.67.121:8081/repository/maven-snapshots/</url>
+      <id>gow-maven</id>
+      <url>http://34.209.156.141:8081/repository/gow-maven/</url>
     </snapshotRepository>
  </distributionManagement>
 </project>

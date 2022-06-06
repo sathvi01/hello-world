@@ -5,7 +5,6 @@
   vars:
       user: admin
       passwd: Mgr@1998 
-      nexus_ip: 34.209.156.141
   tasks:
     - name: upload file to Nexus
       uri:

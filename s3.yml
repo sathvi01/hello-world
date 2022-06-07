@@ -9,5 +9,5 @@
       bucket: s3-devops1
       object: webapp.war
       region: us-east-1
-      mode: PUT
+      mode: put
 ...

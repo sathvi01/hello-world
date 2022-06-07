@@ -8,7 +8,7 @@
     aws_s3:
       bucket: s3-devops1
       object: webapp.war
-      src: "webapp/target/*.war"
+      src: webapp/target/*.war
       region: us-east-1
       mode: put
 ...

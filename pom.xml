@@ -220,7 +220,7 @@
  <distributionManagement>
     <snapshotRepository>
       <id>gow-maven</id>
-      <url>http://18.237.55.144:8081/repository/gow-maven/</url>
+      <url>http://54.213.56.208:8081/repository/gow-maven/</url>
     </snapshotRepository>
  </distributionManagement>
 </project>

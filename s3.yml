@@ -1,0 +1,13 @@
+---
+- name: Upload war file to s3 bucket
+  hosts: localhost
+  gather_facts: true
+  become: true
+  tasks:
+  - name: PUT operation
+    s3:
+      bucket: s3-devops1
+      object: webapp.war
+      region: us-east-1
+      mode: PUT
+...

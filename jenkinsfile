@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    tools {
+        maven 'maven3'
+    }
+    stages {
+        stage('SCM checkout') {
+            steps {
+                git branch: 'master', url: 'https://github.com/Gowthamoptit/hello-world.git'
+            }
+        }
+        stage('build') {
+            steps {
+                sh 'mvn clean install package deploy'
+            }
+        }
+        stage('Upload artifacts to nexus') {
+            steps {
+                sh """ansible-playbook --extra-vars '{"nexus_ip":"${params.nexus_ip}"}' -i dev.inv build.yml"""
+            }
+        }
+    }
+}

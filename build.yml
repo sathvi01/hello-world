@@ -11,7 +11,7 @@
        url: " http://{{ nexus_ip }}:8081/repository/gow-maven/"
        validate_certs: no
        method: "PUT"
-       status_code: 201, 200, 500, 401, 400
+       status_code: 201, 200, 500, 400
        url_username: "{{ user }}"
        url_password: "{{ passwd }}"
 ...

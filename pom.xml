@@ -220,7 +220,9 @@
     <maven>3.0.3</maven>
   </prerequisites>
  <distributionManagement>
-    
+    <snapshotRepository>
+      <id>gow-maven</id>
+      <url>http://54.149.133.79:8081/repository/gow-maven/</url>
     </snapshotRepository>
  </distributionManagement>
 </project>

@@ -222,7 +222,7 @@
  <distributionManagement>
     <snapshotRepository>
       <id>gow-maven</id>
-      <url>http://54.149.133.79:8081/repository/gow-maven/</url>
+      <url>http://54.149.133.79:8081/repository/test-maven/</url>
     </snapshotRepository>
  </distributionManagement>
 </project>

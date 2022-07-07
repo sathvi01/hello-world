@@ -11,7 +11,7 @@
        url: " http://{{ nexus_ip }}:8081/repository/test-maven/"
        validate_certs: no
        method: "PUT"
-       status_code: 201, 200, 500, 400
+       status_code: 201, 200, 500, 400, 401
        url_username: "{{ user }}"
        url_password: "{{ passwd }}"
 ...

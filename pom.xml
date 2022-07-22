@@ -222,7 +222,7 @@
  <distributionManagement>
     <snapshotRepository>
       <id>test-maven</id>
-      <url>http://34.211.48.83:8081/repository/test-maven/</url>
+      <url>http://34.221.32.213:8081/repository/test-maven/</url>
     </snapshotRepository>
  </distributionManagement>
 </project>
